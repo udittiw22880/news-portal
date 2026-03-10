@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>जनधारा न्यूज़</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#ffffff;
+}
+
+/* TOP SECTION */
+
+.top-section{
+background:#6b0f0f;
+color:white;
+text-align:center;
+padding:40px;
+border-bottom-left-radius:40px;
+border-bottom-right-radius:40px;
+}
+
+.top-section h1{
+font-size:40px;
+font-weight:900;
+margin:0;
+}
+
+.top-section p{
+font-size:18px;
+}
+
+/* NAVIGATION */
+
+nav{
+margin-top:20px;
+}
+
+nav a{
+text-decoration:none;
+margin:8px;
+padding:10px 18px;
+background:white;
+color:#6b0f0f;
+border-radius:20px;
+font-weight:bold;
+}
+
+/* NEWS AREA */
+
+.bottom-section{
+padding:30px;
+max-width:1000px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+/* NEWS CARD */
+
+.news-card{
+background:#6b0f0f;
+color:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
+
+.news-card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.news-content{
+padding:15px;
+}
+
+.news-content h2{
+margin-top:0;
+font-weight:800;
+}
+
+.news-content p{
+opacity:0.9;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+color:#555;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:600px){
+
+.top-section h1{
+font-size:28px;
+}
+
+nav a{
+display:inline-block;
+margin:5px;
+padding:8px 12px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="top-section">
+<h1>जनधारा न्यूज़</h1>
+<p>ताज़ा खबरें सबसे पहले</p>
+
+<nav>
+<a href="#">होम</a>
+<a href="#">भारत</a>
+<a href="#">खेल</a>
+<a href="#">टेक्नोलॉजी</a>
+</nav>
+
+</div>
+
+<div class="bottom-section">
+
+<div class="news-card">
+<img src="https://picsum.photos/400/200?1">
+<div class="news-content">
+<h2>आज की मुख्य खबर</h2>
+<p>यहाँ आप अपनी मुख्य खबर लिख सकते हैं।</p>
+</div>
+</div>
+
+<div class="news-card">
+<img src="https://picsum.photos/400/200?2">
+<div class="news-content">
+<h2>उज्जैन समाचार</h2>
+<p>उज्जैन में आज मौसम साफ रहा और बाजारों में भीड़ देखी गई।</p>
+</div>
+</div>
+
+<div class="news-card">
+<img src="https://picsum.photos/400/200?3">
+<div class="news-content">
+<h2>टेक्नोलॉजी अपडेट</h2>
+<p>नई तकनीकों के साथ AI तेजी से आगे बढ़ रहा है।</p>
+</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 जनधारा न्यूज़
+</footer>
+
+</body>
+</html>
+
