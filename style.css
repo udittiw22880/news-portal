@@ -18,20 +18,20 @@ nav{
 }
 
 nav a{
-    color:white;
+    color:maroon;
     text-decoration:none;
     margin:8px;
     padding:8px 16px;
-    background-color:#a00000;
+    background-color:white;
     border-radius:20px;
     font-weight:bold;
+    border:2px solid maroon;
     transition:0.3s;
 }
-
 nav a:hover{
-    background-color:#cc0000;
+    background-color:maroon;
+    color:white;
 }
-
 .news-card{
     background:white;
     border-radius:10px;
